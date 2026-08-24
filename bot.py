@@ -13,7 +13,7 @@ from flask import Flask, request
 # ==================== CONFIGURATION ====================
 # Railway par environment variable se token lo
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '8001120680:AAEWhwliUYTIyb-VirkirYbUyiG195PvH7k')
-ADMIN_IDS = [int(id.strip()) for id in os.environ.get('ADMIN_IDS', '123456789').split(',')]
+ADMIN_IDS = [int(id.strip()) for id in os.environ.get('ADMIN_IDS', '7229517038').split(',')]
 
 # API Configuration
 API_URL = "https://adminpanels.shop/api/reseller_v1.php"
